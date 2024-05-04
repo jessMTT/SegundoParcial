@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:background="#96D9EF">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/edt_user"
+        android:textColorHint="@color/black"
+        android:hint="Digite usuario"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/edt_pass"
+        android:textColorHint="@color/black"
+        android:hint="Digite contraseña"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ini"
+        android:text="Iniciar Sesión"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/design_default_color_error" />
+
+</LinearLayout>
